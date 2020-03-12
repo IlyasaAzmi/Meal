@@ -66,6 +66,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED94D41F241A087500835CB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDF7E6D6241795B500B574B0 /* MealViewController.swift */,
+				EDA7A65C24187F8F00279999 /* MealTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED94D420241A089300835CB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7A658241873D600279999 /* Meal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED94D421241A08A900835CB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7A6562417AA1800279999 /* RatingControl.swift */,
+				EDF7E6D8241795B500B574B0 /* Main.storyboard */,
+				EDA7A65A24187A2000279999 /* MealTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EDF7E6C6241795B500B574B0 = {
 			isa = PBXGroup;
 			children = (
@@ -89,15 +116,12 @@
 			children = (
 				EDF7E6D2241795B500B574B0 /* AppDelegate.swift */,
 				EDF7E6D4241795B500B574B0 /* SceneDelegate.swift */,
-				EDF7E6D6241795B500B574B0 /* MealViewController.swift */,
-				EDA7A6562417AA1800279999 /* RatingControl.swift */,
-				EDF7E6D8241795B500B574B0 /* Main.storyboard */,
+				ED94D420241A089300835CB0 /* Model */,
+				ED94D41F241A087500835CB0 /* ViewControllers */,
+				ED94D421241A08A900835CB0 /* Views */,
 				EDF7E6DB241795B700B574B0 /* Assets.xcassets */,
 				EDF7E6DD241795B700B574B0 /* LaunchScreen.storyboard */,
 				EDF7E6E0241795B700B574B0 /* Info.plist */,
-				EDA7A658241873D600279999 /* Meal.swift */,
-				EDA7A65A24187A2000279999 /* MealTableViewCell.swift */,
-				EDA7A65C24187F8F00279999 /* MealTableViewController.swift */,
 			);
 			path = Meal;
 			sourceTree = "<group>";
